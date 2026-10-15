@@ -97,6 +97,11 @@ public class MainClass {
 		int n1 = 10;
 	    int n2 = 20;
 		// Q) n1과 n2의 값을 교환하시오.
+	    int temp = n1;
+	    temp = n1;
+	    n1 = n2;
+	    n2 = temp;
+	    
 	    int n0 = 0;
 	    n0 = n1;
 	    n1 = n2;
